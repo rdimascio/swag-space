@@ -44,7 +44,6 @@ nbproject
 .idea
 .project
 .settings
-composer.lock
 
 # CodeKit files #
 .codekit
