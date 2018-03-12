@@ -49,3 +49,9 @@ nbproject
 .codekit
 .codekit2
 .codekit3
+.config.codekit3
+
+# Minified assets #
+.min.css
+.min.js
+style-min.css
