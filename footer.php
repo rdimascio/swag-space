@@ -49,7 +49,7 @@
     <div id="loading">
         <div class="loading-content">
             <h1>Munching Pixels...</h1>
-            <img id="loading-image" src="https://s3-us-west-1.amazonaws.com/swag-space/assets/Pacman-1s-200px.gif" alt="Loading..."/>
+            <img id="loading-image" src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/Pacman-1s-200px.gif" alt="Loading..."/>
         </div>
     </div><!-- #loading -->
 

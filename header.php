@@ -91,8 +91,8 @@
                 <nav id="site-navigation" class="main-navigation nav primary flex items-center justify-end">
                     <div class="menu-primary-container">
                         <ul id="menu-primary" class="primary-menu header-font medium smooth gray h5 list-reset">
-                            <li class="menu-item"><a href="#" id="submit-modal-trigger"><span id="all"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f449.png" width="24"/></span>&nbsp; submit swag</a></li>
-                            <li class="menu-item"><a href="#" id="request-modal-trigger"><span id="all"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f44f.png" width="24"/></span>&nbsp; request swag</a></li>
+                            <li class="menu-item"><a href="#" id="submit-modal-trigger"><span id="all"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f449.png" width="24"/></span>&nbsp; submit swag</a></li>
+                            <li class="menu-item"><a href="#" id="request-modal-trigger"><span id="all"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f44f.png" width="24"/></span>&nbsp; request swag</a></li>
                         </ul><!-- .menu-primary -->
                     </div>
                 </nav><!-- .site-navigation -->
@@ -112,9 +112,9 @@
                             <div class="logo flex justify-start items-center">
                                 <img src="<?= get_template_directory_uri() . '/images/mini-logo.svg'; ?>" class="sticky-logo" />
                             </div>
-                            <div class="sticky-title flex justify-end items-center">
+                            <!-- <div class="sticky-title flex justify-end items-center">
                                 <h2>Swag Space</h2>
-                            </div>
+                            </div> -->
                         </div>
                     </div><!-- .site-logo -->
                 </a>
@@ -126,11 +126,11 @@
                     <div class="menu-primary-container">
 
                         <ul class="primary-menu header-font medium smooth gray h5 list-reset">
-                            <li class="tag__filter_item"><button class="flex category-toggle show-all" href="#all" type="button" data-filter="all"><span id="all"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f919.png" width="16"/></span>&nbsp; All</button></li>
-                            <li class="tag__filter_item"><button class="flex category-toggle dev" href="#dev" type="button" data-filter="brand_category-dev"><span id="dev"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f913.png" width="16"/></span>&nbsp; Dev</button></li>
-                            <li class="tag__filter_item"><button class="flex category-toggle design" href="#design" type="button" data-filter="brand_category-design"><span id="design"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f3a8.png" width="16"/></span>&nbsp; Design</button></li>
-                            <li class="tag__filter_item"><button class="flex category-toggle tech" href="#tech" type="button" data-filter="brand_category-tech"><span id="tech"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f468-1f4bb.png" width="16"/></span>&nbsp; Tech</button></li>
-                            <li class="tag__filter_item"><button class="flex category-toggle social" href="#social" type="button" data-filter="brand_category-social"><span id="social"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f44b.png" width="16"/></span>&nbsp; Social</button></li>
+                            <li class="tag__filter_item"><button class="flex category-toggle show-all" href="#all" type="button" data-filter="all"><span id="all"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f919.png" width="16"/></span>&nbsp; All</button></li>
+                            <li class="tag__filter_item"><button class="flex category-toggle dev" href="#dev" type="button" data-filter="brand_category-dev"><span id="dev"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f913.png" width="16"/></span>&nbsp; Dev</button></li>
+                            <li class="tag__filter_item"><button class="flex category-toggle design" href="#design" type="button" data-filter="brand_category-design"><span id="design"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f3a8.png" width="16"/></span>&nbsp; Design</button></li>
+                            <li class="tag__filter_item"><button class="flex category-toggle tech" href="#tech" type="button" data-filter="brand_category-tech"><span id="tech"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f468-1f4bb.png" width="16"/></span>&nbsp; Tech</button></li>
+                            <li class="tag__filter_item"><button class="flex category-toggle social" href="#social" type="button" data-filter="brand_category-social"><span id="social"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f44b.png" width="16"/></span>&nbsp; Social</button></li>
                         </ul>
 
                     </div>
@@ -143,8 +143,8 @@
 
                         <ul class="social-menu header-font medium smooth gray h5 list-reset">
 
-                            <li><a href="https://producthunt.com/posts/swagspace" rel="nofollow" target="_blank"><img src="https://s3-us-west-1.amazonaws.com/swag-space/icons/product-hunt.svg" width="22" alt="@hi_swagspace"></a></li>
-                            <li><a href="https://twitter.com/hi_swagspace" rel="nofollow" target="_blank"><img src="https://s3-us-west-1.amazonaws.com/swag-space/icons/twitter.svg" width="22" alt="@hi_swagspace"></a></li>
+                            <li><a href="https://producthunt.com/posts/swagspace" rel="nofollow" target="_blank"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/icons/product-hunt.svg" width="22" alt="@hi_swagspace"></a></li>
+                            <li><a href="https://twitter.com/hi_swagspace" rel="nofollow" target="_blank"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/icons/twitter.svg" width="22" alt="@hi_swagspace"></a></li>
 
                         </ul>
 

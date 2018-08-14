@@ -22,7 +22,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <a data-toggle="modal" class="open_post" data-target="#postModal" href="<?= the_permalink(); ?>">
             <div class="item-header flex">
                 <div class="item-logo flex justify-start items-center">
-                    <img src="http://cdn.swag.space/icons/<?= the_field('brand_logo'); ?>.svg" class="logo" />
+                    <img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/icons/<?= the_field('brand_logo'); ?>.svg" class="logo" />
                 </div>
                 <div class="item-title flex justify-between items-center">
                     <h5><?= the_title(); ?></h5>

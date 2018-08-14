@@ -1087,7 +1087,7 @@ textarea {
 }
 
 body {
-	background-image: url("https://s3-us-west-1.amazonaws.com/swag-space/assets/swag-bg.jpg");
+	background-image: url("https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/swag-bg.jpg");
 	background-color: #eee;
 	background-repeat: repeat repeat;
 	background-size: contain;
@@ -1598,6 +1598,8 @@ button, input[type="submit"] {
 .sticky-header.sticky {
 	width: 100%;
 	top: 0;
+    align-items: center;
+    height: 4em;
 	position: fixed;
 	z-index: 100001;
 	background: rgba(285, 285, 285, 0.98);
@@ -1826,7 +1828,7 @@ button, input[type="submit"] {
 .submit-modal-intro-gif {
 	height: 185px;
 	border-radius: 10px 10px 0 0;
-	background-image: url(https://s3-us-west-1.amazonaws.com/swag-space/assets/always-sunny-dancing.gif);
+	background-image: url(https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/always-sunny-dancing.gif);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

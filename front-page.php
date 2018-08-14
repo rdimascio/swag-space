@@ -20,7 +20,7 @@ get_header();
             <span class="high-converting-copy text-center items-center">
               <h1>All your favorite brands in one place.</h1>
               <p>So you can have the coolest (or cringiest) laptop in the coffee shop.</p>
-              <button id="go"><img src="https://s3-us-west-1.amazonaws.com/swag-space/assets/emojis/1f447.png" width="24" /> search swag</button>
+              <button id="go"><img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/emojis/1f447.png" width="24" /> search swag</button>
             </span>
         </div>
 
