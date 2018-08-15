@@ -1316,7 +1316,7 @@ button, input[type="submit"] {
 	cursor: pointer;
 	font-weight: 500;
 	font-family: 'Work Sans', sans-serif;
-	margin-top: 4em;
+	margin-top: 1em;
 }
 
 #go::after {
