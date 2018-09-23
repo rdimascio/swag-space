@@ -55,6 +55,9 @@
 
 </div><!-- #page -->
 
+<script src="https://platform.wip.chat/widgets.js" type="text/javascript"></script>
+<a href="https://wip.chat/@dimasc_io" data-wip>Made by Ryan DiMascio</a>
+
 <?php wp_footer(); ?>
 
 <script>
@@ -121,7 +124,7 @@
             $("#loading").hide();
         };
         window.setTimeout( hide_loading, 1500 ); // 1.5 seconds
-        
+
     });
 </script>
 
