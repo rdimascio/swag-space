@@ -10,7 +10,8 @@
 ?>
 
 <?php
-$args = array( 'post_type' => 'brand', 'posts_per_page' => 16, 'orderby' => 'date', 'order' => 'ASC' );
+$args = array( 
+    'post_type' => 'brand', 'posts_per_page' => -1, 'orderby' => 'date', 'order' => 'ASC' );
 $loop = new WP_Query( $args );
 $brand_cat = get_the_category();
 
@@ -28,7 +29,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
                     <h5><?= the_title(); ?></h5>
                 </div>
             </div><!-- .item-header -->
-            <div class="item-image" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
+            <div class="brand-image" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
         </a>
     </article><!-- .grid-item -->
 

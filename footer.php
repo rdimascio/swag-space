@@ -121,6 +121,7 @@
             $("#loading").hide();
         };
         window.setTimeout( hide_loading, 1500 ); // 1.5 seconds
+        
     });
 </script>
 
