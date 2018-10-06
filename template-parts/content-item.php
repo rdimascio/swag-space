@@ -3,7 +3,7 @@
     <?php while( have_rows('brand_items') ): the_row(); ?>
 
         <article id="post-<?= the_ID(); ?>" <?= post_class('grid-item all'); ?>>
-            <a target="_blank" href="<?php the_sub_field('item_link'); ?>?ref=brandswag">
+            <a target="_blank" href="<?php the_sub_field('item_link'); ?>">
                 <div class="item-header flex">
                     <!-- <div class="item-logo flex justify-start items-center">
                         <img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/icons/<?= the_field('brand_logo'); ?>.svg" class="logo" />
