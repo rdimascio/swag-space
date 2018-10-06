@@ -17,8 +17,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Swag Space</title>
-    <meta name="description" content="">
+    <title>Brand Swag</title>
+    <meta name="description" content="All Your Favorite Brands in One Place">
     <!-- Google Fonts - Work Sans -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <!-- Google Fonts - Pacifico -->
