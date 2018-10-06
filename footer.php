@@ -46,12 +46,12 @@
         </div>
     </div>
 
-    <div id="loading">
+<!--     <div id="loading">
         <div class="loading-content">
             <h1>Munching Pixels...</h1>
             <img id="loading-image" src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/assets/Pacman-1s-200px.gif" alt="Loading..."/>
         </div>
-    </div><!-- #loading -->
+    </div> --><!-- #loading -->
 
 </div><!-- #page -->
 
@@ -120,10 +120,10 @@
             }
         });
 
-        function hide_loading(){
-            $("#loading").hide();
-        };
-        window.setTimeout( hide_loading, 1500 ); // 1.5 seconds
+        // function hide_loading(){
+        //     $("#loading").hide();
+        // };
+        // window.setTimeout( hide_loading, 1500 ); // 1.5 seconds
 
     });
 </script>
