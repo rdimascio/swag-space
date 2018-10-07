@@ -1378,10 +1378,6 @@ button, input[type="submit"] {
 	min-width: 280px;
 }
 
-.brand-item.item-header {
-	min-height: 115px;
-}
-
 @media (max-width: 600px) {
 	.grid {
 		margin: 1em;
@@ -1447,6 +1443,12 @@ button, input[type="submit"] {
 .item-header {
 	padding: 0 2em;
 	border-bottom: 1px solid #ddd;
+}
+
+.brand_item-header {
+	padding: 0 2em;
+    border-bottom: 1px solid #ddd;
+    min-height: 115px;
 }
 
 .item-logo img {

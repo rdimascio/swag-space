@@ -4,7 +4,7 @@
 
         <article id="post-<?= the_ID(); ?>" class="grid-item brand-item all <?= the_sub_field('item_type'); ?>">
             <a target="_blank" href="<?php the_sub_field('item_link'); ?>">
-                <div class="item-header flex">
+                <div class="brand_item-header flex">
                     <div class="item-title flex justify-between items-center">
                         <h5><?php the_sub_field('item_name'); ?></h5>
                     </div>
