@@ -16,9 +16,7 @@ get_header('brand');
 
         get_template_part( 'template-parts/content', get_post_type() );
 
-//			the_post_navigation();
-
-    endwhile; // End of the loop.
+    endwhile;
     ?>
 
     <div id="all" class="flex grid brand-page justify-start items-center feed">

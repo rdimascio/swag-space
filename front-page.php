@@ -37,13 +37,5 @@ get_header();
         endwhile; ?>
     </div>
 
-<!--    <div class="modal hide fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">-->
-<!--        <div class="modal-header">-->
-<!--            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>-->
-<!--            <h5 id="postModalHeader">Modal Header</h5>-->
-<!--        </div>-->
-<!--        <div class="post-modal-content"></div>-->
-<!--    </div>-->
-
 <?php
 get_footer();

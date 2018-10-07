@@ -28,9 +28,9 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="item-title flex justify-between items-center">
                     <h5><?= the_title(); ?></h5>
                 </div>
-            </div><!-- .item-header -->
+            </div>
             <div class="brand-image" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
         </a>
-    </article><!-- .grid-item -->
+    </article>
 
 <?php endwhile; ?>

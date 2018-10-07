@@ -13,25 +13,70 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Swag Space</title>
-    <meta name="description" content="">
+	
+    <!------------------------ META DATA ------------------------>
+
+    <meta charset="utf-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,requiresActiveX=true">
+    <title>Brand Swag</title>
+    <meta name="description" content="All Your Favorite Brands in One Place">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Facebook -->
+    <meta property="og:title" content="site_title">
+    <meta property="og:description" content="site_description">
+    <meta property="og:image" content="http://www.example.com/path/to/image.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account">
+    <meta name="twitter:url" content="http://www.example.com/path/to/page.html">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://www.example.com/path/to/image.jpg">
+
+    <!-- Give the spiders the key to the map -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+    <!------------------------ DNS PREFETCH ------------------------>
+
+    <link rel="dns-prefetch" href="//s3.amazonaws.com">
+
+    <!------------------------ ICONS ------------------------>
+
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Web Manifest -->
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+
+    <!------------------------ FONTS ------------------------>
+
     <!-- Google Fonts - Work Sans -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <!-- Google Fonts - Pacifico -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <!------------------------ SCRIPTS ------------------------>
+
     <!-- jQuery 3.3.1 -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
 
 	<?php wp_head(); ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127032697-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127032697-1');
+    </script>
+    
 </head>
 
 <body <?php body_class(); ?>>
