@@ -1374,6 +1374,14 @@ button, input[type="submit"] {
 	transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.brand-item {
+	min-width: 280px;
+}
+
+.brand-item.item-header {
+	min-height: 115px;
+}
+
 @media (max-width: 600px) {
 	.grid {
 		margin: 1em;

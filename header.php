@@ -25,17 +25,17 @@
 
 
     <!-- Facebook -->
-    <meta property="og:title" content="site_title">
-    <meta property="og:description" content="site_description">
+    <meta property="og:title" content="Brand Swag">
+    <meta property="og:description" content="All Your Favorite Brands in One Place">
     <meta property="og:image" content="http://www.example.com/path/to/image.jpg">
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="All Your Favorite Brands in One Place">
     <meta name="twitter:site" content="@site_account">
-    <meta name="twitter:creator" content="@individual_account">
-    <meta name="twitter:url" content="http://www.example.com/path/to/page.html">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:creator" content="@dimasc_io">
+    <meta name="twitter:url" content="https://brandswag.io">
+    <meta name="twitter:title" content="Brand Swag">
+    <meta name="twitter:description" content="All Your Favorite Brands in One Place">
     <meta name="twitter:image" content="http://www.example.com/path/to/image.jpg">
 
     <!-- Give the spiders the key to the map -->
