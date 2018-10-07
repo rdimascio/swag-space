@@ -20,7 +20,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
 
     <article id="post-<?= the_ID(); ?>" <?= post_class('grid-item all'); ?>>
-        <a data-toggle="modal" class="open_post" data-target="#postModal" href="<?= the_permalink(); ?>">
+        <a href="<?= the_permalink(); ?>">
             <div class="item-header flex">
                 <div class="item-logo flex justify-start items-center">
                     <img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/icons/<?= the_field('brand_logo'); ?>.svg" class="logo" />

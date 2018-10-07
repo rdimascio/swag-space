@@ -1417,7 +1417,8 @@ button, input[type="submit"] {
 	text-decoration: none;
 }
 
-.grid-item.brand_category-dev {
+.grid-item.brand_category-dev,
+.grid-item.sticker {
 	border-top: 6px solid #E99494;
 }
 
@@ -1425,11 +1426,13 @@ button, input[type="submit"] {
 	border-top: 6px solid #82C3D7;
 }
 
-.grid-item.brand_category-tech {
+.grid-item.brand_category-tech,
+.grid-item.accessories {
 	border-top: 6px solid #C0B6E3;
 }
 
-.grid-item.brand_category-design {
+.grid-item.brand_category-design,
+.grid-item.apparel {
 	border-top: 6px solid #A2E88B;
 }
 

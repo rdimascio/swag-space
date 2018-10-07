@@ -2,7 +2,7 @@
 
     <?php while( have_rows('brand_items') ): the_row(); ?>
 
-        <article id="post-<?= the_ID(); ?>" <?= post_class('grid-item all'); ?>>
+        <article id="post-<?= the_ID(); ?>" class="grid-item all <?= the_sub_field('item_type'); ?>">
             <a target="_blank" href="<?php the_sub_field('item_link'); ?>">
                 <div class="item-header flex">
                     <!-- <div class="item-logo flex justify-start items-center">
