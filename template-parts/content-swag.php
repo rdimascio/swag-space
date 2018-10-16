@@ -23,7 +23,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <a href="<?= the_permalink(); ?>">
             <div class="item-header flex">
                 <div class="item-logo flex justify-start items-center">
-                    <img src="https://s3-us-west-1.amazonaws.com/cdn.swag.space/icons/<?= the_field('brand_logo'); ?>.svg" class="logo" />
+                    <img src="https://brandicons.org/<?= the_field('brand_logo'); ?>" class="logo" />
                 </div>
                 <div class="item-title flex justify-between items-center">
                     <h5><?= the_title(); ?></h5>
