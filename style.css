@@ -1453,7 +1453,8 @@ button, input[type="submit"] {
 
 .item-logo img {
 	padding-right: 2em;
-	max-width: 60px;
+	max-width: 50px;
+        max-height: 20px;
 }
 
 .item-title {
